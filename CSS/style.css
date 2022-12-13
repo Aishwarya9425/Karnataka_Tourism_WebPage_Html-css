@@ -1,0 +1,349 @@
+html{
+    font-family: "helvetica neue", "Arial", sans-serif;
+}
+
+
+body{
+    background-color: white;
+    margin: 0
+}
+
+p{
+    color: #5d6660;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+header{
+    height: 80px;
+    background-color: white
+}
+
+#headerDiv{
+    width:80%;
+    margin:auto
+}
+
+.col-3{
+    width: 32%;
+    float: left
+}
+
+.menu{
+    margin-top: 32px
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline;
+    color:darkorange;
+    padding-right: 30px;
+    
+}
+
+.getStarted{
+    background-color: #6dc77a;
+    border-radius: 28px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 26px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size : 18px;
+    float: right;
+
+}
+
+#top-section-main{
+    background-image:url(../Images/sec1.jpg) ;
+    background-repeat: no-repeat;
+    height: 740px;
+    border: none;
+}
+#top-section-content{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+#top-section-content h1{
+    font-size: 4em;
+    font-weight: 300;
+    color:black;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 100px;
+    margin-bottom: 10px;
+
+}
+
+#top-section-content p{
+    font-size: 1.3em;
+    font-weight: 400;
+    color:black;
+    text-align: center;
+
+}
+
+.play-button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 50px 0 110px 0;
+        
+}
+
+.main-form h6{
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: 100;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.main-form input{
+    margin: 0;
+    width:30%;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 100;
+    border: none;
+}
+
+.main-form button{
+    width:30%;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 100;
+    background-color: #6dc77a;
+    color: #ffffff;
+    border: none;
+}
+
+#feature-section{
+ padding-top: 100px;
+  background-image: url(../Images/Om-Beach.jpg);
+   width: 100%;
+   height: auto;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.feature-sectionTitle{
+    width: 70%;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.5em;
+    margin: auto;
+}
+
+.feature-content{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.feature-content .col-3 img{
+    width: 100%;
+}
+
+.feature-content .col-3 p{
+font-size: .9em;
+    letter-spacing: 1px;
+}
+
+.feature-content .col-3 h3{
+text-align: center;
+}
+
+.feature-content .col-3{
+    padding: 10px;
+    width: 30%;
+}
+
+.col-2{
+    float: left;
+    width: 48%;
+    
+}
+
+#showcase1Cont{
+    padding-top: 60px;
+    background-color: #f6f8fa;
+    width: 100%;
+    clear: both;
+background-color:bisque;
+
+     
+}
+
+.showcase{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    
+}
+
+.giTag{
+    width: 100%;
+}
+
+.giTag:hover{
+      transition: transform .2s; /* Animation */
+
+      transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+
+.feature-text{
+    padding-top: 300px;
+    padding-left: 60px;
+    text-align: center;
+    display: block;
+}
+
+.GI_h1{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-weight: 200;
+    text-align: center;
+    display: block;
+    
+}
+
+.GI_p{
+    width: 70%;
+    padding: 20px 10px 10px 10px;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+#showcase2Cont
+{
+   padding-top: 60px;
+    background-color: #f6f8fa;
+    width: 100%;
+    clear: both;
+    background-color:aquamarine;
+    
+    
+}
+
+.col-1{
+    width: 80%;
+    margin: auto;
+}
+
+
+#call2action{
+    background-image: url(../Images/best-tourist-places-in-karnataka.png);
+   width: 100%;
+   height: auto;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+        
+}
+
+.actionH1{
+    font-size: 4em;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 100px;
+}
+
+.col-1 p{
+    font-size: 1.6em;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 100px;
+    
+}
+
+.signupBTN{
+    background-color: #6dc77a;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 200;
+    text-decoration: none;
+    padding: 30px 90px;
+}
+
+.signupBTN:hover{
+    background-color: #5cbf2a;
+}
+
+.signupform{
+    background-color: #f6f8fa;
+    margin-right: 200px;
+    padding: 0px 50px 10px 50px;
+}
+
+.signupform h6{
+    color:black;
+    padding-top: 15px;
+    font-size: .9em;
+    text-align: center;
+    
+}
+
+footer{
+    clear: both;
+    background-image: url(/Images/k1.jpg);
+   width: 100%;
+   height: auto;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    
+}
+
+.social{
+    width: 25%;
+    float:left;
+    height: 40%;
+}
+
+
+.social:hover{
+background-color:azure;
+    
+}
+
+.center{
+    width: 50px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.copyright{
+    color:black;
+    font-size: .9em;
+    text-align: center;
+    display: block;
+}
+
+.zoomPic:hover{
+      transition: transform .2s; /* Animation */
+
+      transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+
+
