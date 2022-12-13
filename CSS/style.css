@@ -304,7 +304,7 @@ background-color:bisque;
 
 footer{
     clear: both;
-    background-image: url(/Images/k1.jpg);
+    background-image:url(../Images/k1.jpg);
    width: 100%;
    height: auto;
    background-size: cover;
